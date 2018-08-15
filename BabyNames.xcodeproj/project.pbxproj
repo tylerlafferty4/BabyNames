@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2111AC72C071EFBFB1043C92 /* Pods_BabyNames.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706AC9979CE5BA4665BAD812 /* Pods_BabyNames.framework */; };
+		D8406F9721137E62003AAF3F /* NameCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8406F9621137E62003AAF3F /* NameCardView.xib */; };
+		D8406F9921137F2D003AAF3F /* NameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8406F9821137F2D003AAF3F /* NameCardView.swift */; };
+		D8406F9B2113944E003AAF3F /* FavoritesHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8406F9A2113944E003AAF3F /* FavoritesHeaderCell.swift */; };
+		D8840EDD210A095B00C1DE6D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8840EDC210A095B00C1DE6D /* SettingsViewController.swift */; };
+		D8840EE3210A613300C1DE6D /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8840EE2210A613300C1DE6D /* ImageTableViewCell.swift */; };
+		D8840EE5210B5EC100C1DE6D /* GenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8840EE4210B5EC100C1DE6D /* GenderTableViewCell.swift */; };
+		D896EEF52119E86A009A2898 /* FavoritesNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D896EEF42119E86A009A2898 /* FavoritesNameCell.swift */; };
+		D896EEF7212370A6009A2898 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D896EEF6212370A6009A2898 /* ExampleOverlayView.swift */; };
+		D896EEF9212370CC009A2898 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D896EEF8212370CC009A2898 /* OverlayView.xib */; };
 		D89F84342108DC4A00FD33EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84332108DC4A00FD33EF /* AppDelegate.swift */; };
-		D89F84362108DC4A00FD33EF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84352108DC4A00FD33EF /* FirstViewController.swift */; };
-		D89F84382108DC4A00FD33EF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84372108DC4A00FD33EF /* SecondViewController.swift */; };
+		D89F84362108DC4A00FD33EF /* NamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84352108DC4A00FD33EF /* NamePickerViewController.swift */; };
+		D89F84382108DC4A00FD33EF /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84372108DC4A00FD33EF /* FavoritesViewController.swift */; };
 		D89F843B2108DC4A00FD33EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89F84392108DC4A00FD33EF /* Main.storyboard */; };
 		D89F843D2108DC4A00FD33EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89F843C2108DC4A00FD33EF /* Assets.xcassets */; };
 		D89F84402108DC4A00FD33EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89F843E2108DC4A00FD33EF /* LaunchScreen.storyboard */; };
+		D89F84482108DD7600FD33EF /* BNShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84472108DD7600FD33EF /* BNShared.swift */; };
+		D89F844A2108DE8600FD33EF /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F84492108DE8600FD33EF /* Names.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47BD7444B89807A37C71A283 /* Pods-BabyNames.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyNames.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames.release.xcconfig"; sourceTree = "<group>"; };
+		706AC9979CE5BA4665BAD812 /* Pods_BabyNames.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyNames.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8406F9621137E62003AAF3F /* NameCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameCardView.xib; sourceTree = "<group>"; };
+		D8406F9821137F2D003AAF3F /* NameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCardView.swift; sourceTree = "<group>"; };
+		D8406F9A2113944E003AAF3F /* FavoritesHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesHeaderCell.swift; sourceTree = "<group>"; };
+		D8840EDC210A095B00C1DE6D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D8840EE2210A613300C1DE6D /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		D8840EE4210B5EC100C1DE6D /* GenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTableViewCell.swift; sourceTree = "<group>"; };
+		D896EEF42119E86A009A2898 /* FavoritesNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesNameCell.swift; sourceTree = "<group>"; };
+		D896EEF6212370A6009A2898 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		D896EEF8212370CC009A2898 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		D89F84302108DC4A00FD33EF /* BabyNames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyNames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89F84332108DC4A00FD33EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D89F84352108DC4A00FD33EF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D89F84372108DC4A00FD33EF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D89F84352108DC4A00FD33EF /* NamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamePickerViewController.swift; sourceTree = "<group>"; };
+		D89F84372108DC4A00FD33EF /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		D89F843A2108DC4A00FD33EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D89F843C2108DC4A00FD33EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89F843F2108DC4A00FD33EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D89F84412108DC4A00FD33EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89F84472108DD7600FD33EF /* BNShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNShared.swift; sourceTree = "<group>"; };
+		D89F84492108DE8600FD33EF /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		EEDB0C7D6560B34F6255A6A4 /* Pods-BabyNames.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyNames.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2111AC72C071EFBFB1043C92 /* Pods_BabyNames.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3998A4F8E42DBB93522B5946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706AC9979CE5BA4665BAD812 /* Pods_BabyNames.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C606A97B8979A3BBDFBD83C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEDB0C7D6560B34F6255A6A4 /* Pods-BabyNames.debug.xcconfig */,
+				47BD7444B89807A37C71A283 /* Pods-BabyNames.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8840EDE210A0F1C00C1DE6D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D8840EDC210A095B00C1DE6D /* SettingsViewController.swift */,
+				D8840EE2210A613300C1DE6D /* ImageTableViewCell.swift */,
+				D8840EE4210B5EC100C1DE6D /* GenderTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D8840EDF210A0F2B00C1DE6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D89F84492108DE8600FD33EF /* Names.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8840EE0210A0F3300C1DE6D /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				D89F84372108DC4A00FD33EF /* FavoritesViewController.swift */,
+				D8406F9A2113944E003AAF3F /* FavoritesHeaderCell.swift */,
+				D896EEF42119E86A009A2898 /* FavoritesNameCell.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		D8840EE1210A0F3A00C1DE6D /* NamePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D896EEF8212370CC009A2898 /* OverlayView.xib */,
+				D896EEF6212370A6009A2898 /* ExampleOverlayView.swift */,
+				D89F84352108DC4A00FD33EF /* NamePickerViewController.swift */,
+				D8406F9621137E62003AAF3F /* NameCardView.xib */,
+				D8406F9821137F2D003AAF3F /* NameCardView.swift */,
+			);
+			path = NamePicker;
+			sourceTree = "<group>";
+		};
 		D89F84272108DC4A00FD33EF = {
 			isa = PBXGroup;
 			children = (
 				D89F84322108DC4A00FD33EF /* BabyNames */,
 				D89F84312108DC4A00FD33EF /* Products */,
+				C606A97B8979A3BBDFBD83C1 /* Pods */,
+				3998A4F8E42DBB93522B5946 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +143,15 @@
 			isa = PBXGroup;
 			children = (
 				D89F84332108DC4A00FD33EF /* AppDelegate.swift */,
-				D89F84352108DC4A00FD33EF /* FirstViewController.swift */,
-				D89F84372108DC4A00FD33EF /* SecondViewController.swift */,
+				D8840EE1210A0F3A00C1DE6D /* NamePicker */,
+				D8840EE0210A0F3300C1DE6D /* Favorites */,
 				D89F84392108DC4A00FD33EF /* Main.storyboard */,
 				D89F843C2108DC4A00FD33EF /* Assets.xcassets */,
 				D89F843E2108DC4A00FD33EF /* LaunchScreen.storyboard */,
 				D89F84412108DC4A00FD33EF /* Info.plist */,
+				D89F84472108DD7600FD33EF /* BNShared.swift */,
+				D8840EDF210A0F2B00C1DE6D /* Models */,
+				D8840EDE210A0F1C00C1DE6D /* Settings */,
 			);
 			path = BabyNames;
 			sourceTree = "<group>";
@@ -74,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D89F84442108DC4A00FD33EF /* Build configuration list for PBXNativeTarget "BabyNames" */;
 			buildPhases = (
+				D035BC3C30CB6213EC56CE82 /* [CP] Check Pods Manifest.lock */,
 				D89F842C2108DC4A00FD33EF /* Sources */,
 				D89F842D2108DC4A00FD33EF /* Frameworks */,
 				D89F842E2108DC4A00FD33EF /* Resources */,
+				0DF1187EAF8636FD43812631 /* [CP] Embed Pods Frameworks */,
+				90DD2FC7EB9AF56CBA1D060B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,20 +220,87 @@
 			files = (
 				D89F84402108DC4A00FD33EF /* LaunchScreen.storyboard in Resources */,
 				D89F843D2108DC4A00FD33EF /* Assets.xcassets in Resources */,
+				D896EEF9212370CC009A2898 /* OverlayView.xib in Resources */,
 				D89F843B2108DC4A00FD33EF /* Main.storyboard in Resources */,
+				D8406F9721137E62003AAF3F /* NameCardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF1187EAF8636FD43812631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DD2FC7EB9AF56CBA1D060B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D035BC3C30CB6213EC56CE82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyNames-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D89F842C2108DC4A00FD33EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89F84382108DC4A00FD33EF /* SecondViewController.swift in Sources */,
+				D896EEF52119E86A009A2898 /* FavoritesNameCell.swift in Sources */,
+				D89F844A2108DE8600FD33EF /* Names.swift in Sources */,
+				D89F84482108DD7600FD33EF /* BNShared.swift in Sources */,
+				D89F84382108DC4A00FD33EF /* FavoritesViewController.swift in Sources */,
+				D8406F9921137F2D003AAF3F /* NameCardView.swift in Sources */,
+				D8406F9B2113944E003AAF3F /* FavoritesHeaderCell.swift in Sources */,
 				D89F84342108DC4A00FD33EF /* AppDelegate.swift in Sources */,
-				D89F84362108DC4A00FD33EF /* FirstViewController.swift in Sources */,
+				D8840EE5210B5EC100C1DE6D /* GenderTableViewCell.swift in Sources */,
+				D896EEF7212370A6009A2898 /* ExampleOverlayView.swift in Sources */,
+				D8840EE3210A613300C1DE6D /* ImageTableViewCell.swift in Sources */,
+				D89F84362108DC4A00FD33EF /* NamePickerViewController.swift in Sources */,
+				D8840EDD210A095B00C1DE6D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +435,13 @@
 		};
 		D89F84452108DC4A00FD33EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDB0C7D6560B34F6255A6A4 /* Pods-BabyNames.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34M84A79JV;
 				INFOPLIST_FILE = BabyNames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lafferty.BabyNames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +452,13 @@
 		};
 		D89F84462108DC4A00FD33EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BD7444B89807A37C71A283 /* Pods-BabyNames.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34M84A79JV;
 				INFOPLIST_FILE = BabyNames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lafferty.BabyNames;
 				PRODUCT_NAME = "$(TARGET_NAME)";

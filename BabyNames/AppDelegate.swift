@@ -16,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set the current Tint Color based on Gender preference
+        if let gender = UserDefaults.standard.object(forKey: GENDER) as? String {
+            if gender == Gender.male.rawValue {
+                UITabBar.appearance().tintColor = BOY_COLOR
+            } else if gender == Gender.female.rawValue {
+                UITabBar.appearance().tintColor = GIRL_COLOR
+            } else if gender == Gender.either.rawValue {
+                UITabBar.appearance().tintColor = NEUTRAL_COLOR
+            }
+        } else {
+            UITabBar.appearance().tintColor = NEUTRAL_COLOR
+        }
+        
         return true
     }
 

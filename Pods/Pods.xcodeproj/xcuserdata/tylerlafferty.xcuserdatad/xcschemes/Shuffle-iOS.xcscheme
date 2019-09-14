@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2ACE136F34AEB76369E628D1729B4B06"
-               BuildableName = "Pods_BabyNames.framework"
-               BlueprintName = "Pods-BabyNames"
+               BlueprintIdentifier = "6CE4608D13EB4E75FE6B40D38210294E"
+               BuildableName = "Shuffle_iOS.framework"
+               BlueprintName = "Shuffle-iOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2ACE136F34AEB76369E628D1729B4B06"
-            BuildableName = "Pods_BabyNames.framework"
-            BlueprintName = "Pods-BabyNames"
+            BlueprintIdentifier = "6CE4608D13EB4E75FE6B40D38210294E"
+            BuildableName = "Shuffle_iOS.framework"
+            BlueprintName = "Shuffle-iOS"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

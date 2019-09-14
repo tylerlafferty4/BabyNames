@@ -168,7 +168,6 @@
 				D89F842D2108DC4A00FD33EF /* Frameworks */,
 				D89F842E2108DC4A00FD33EF /* Resources */,
 				0DF1187EAF8636FD43812631 /* [CP] Embed Pods Frameworks */,
-				90DD2FC7EB9AF56CBA1D060B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,33 +234,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
-				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BabyNames/Pods-BabyNames-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Shuffle-iOS/Shuffle_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shuffle_iOS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90DD2FC7EB9AF56CBA1D060B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyNames/Pods-BabyNames-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BabyNames/Pods-BabyNames-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D035BC3C30CB6213EC56CE82 /* [CP] Check Pods Manifest.lock */ = {

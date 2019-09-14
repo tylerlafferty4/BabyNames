@@ -1,15 +1,16 @@
 PODS:
-  - Koloda (4.3.1):
-    - pop (~> 1.0)
-  - pop (1.0.10)
+  - Shuffle-iOS (0.1.0)
 
 DEPENDENCIES:
-  - Koloda
+  - Shuffle-iOS
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Shuffle-iOS
 
 SPEC CHECKSUMS:
-  Koloda: 0d39b2aa188ccd1fac48d752acaf9802e683c625
-  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Shuffle-iOS: d1b64066af844e075e97619f80cda10b9c0a04b0
 
-PODFILE CHECKSUM: 1adbb81a83421bbc1447282923e7e9b0a4a6d7e7
+PODFILE CHECKSUM: ca36839c7e659fc5fdbe8facac5d4d9902191543
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.7.5
